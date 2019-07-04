@@ -75,7 +75,7 @@ contract PO is ERC20 {
     mapping (address => bool) public Claimed; 
 
     string public constant name = "Poex";
-    string public constant symbol = "Po";
+    string public constant symbol = "PO";
     uint public constant decimals = 8;
     uint public deadline = now + 50 * 1 days;
     uint public round2 = now + 40 * 1 days;
